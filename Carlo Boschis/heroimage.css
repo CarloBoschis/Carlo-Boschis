@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+  background-color: #EDEDED;
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+font-weight: 200;
+font-family: 'Muli', sans-serif;
+font-size: 100px;
+color: #EDEDED;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("sfondo1.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header {
+  font-weight: 200;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  padding:20px;
+}
+
+.topnav {
+  float: right;
+margin-top: 10px;
+}
+.topnav a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: black;
+  font: 15px 'Montserrat', sans-serif;
+  margin-right: 5px;
+}
+.topnav a:hover {
+    border-bottom: 1px solid #EDEDED;
+}
+.active {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+  padding: 20px;
+  position: absolute;
+  margin-left: 23%;
+  width: 50%;
+  max-width: 300px;
+}
+
+.container2 {
+  padding: 20px;
+  position: absolute;
+  margin-left: 48%;
+  width: 50%;
+  max-width: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3E3E3E;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text {
+  color: #EDEDED;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

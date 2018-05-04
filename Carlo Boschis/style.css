@@ -1,0 +1,54 @@
+body {
+  background-image: url("sfondo1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+font-weight: 200;
+font-family: 'Muli', sans-serif;
+font-size: 100px;
+color: #EDEDED;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #EDEDED;
+  font-size: 30px;
+}
+
+.header {
+  font-weight: 200;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  padding:20px;
+}
+
+.topnav {
+margin-top: 10px;
+}
+.topnav a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: black;
+  font: 15px 'Montserrat', sans-serif;
+  margin-right: 5px;
+}
+.topnav a:hover {
+    border-bottom: 1px solid #EDEDED;
+}
+.active {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
